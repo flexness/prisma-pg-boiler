@@ -22,7 +22,19 @@
 - `\q`: exit psql (postgres)
 - `exit`: exit docker bash
 
-![Alt text](migration.png)
-![Alt text](dt-before-migrate.png)
-![Alt text](dt-after-migrate.png)
+## screens
+access docker and postgres after init:
+
 ![Alt text](access-docker-postgres-bash.png)
+
+show tables of initialized db:
+
+![Alt text](dt-before-migrate.png)
+
+migrate the added database schema (tables)
+
+![Alt text](migration.png)
+
+show tables after migration:
+
+![Alt text](dt-after-migrate.png)
