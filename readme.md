@@ -37,6 +37,10 @@ access docker and postgres after init:
 
 ![Alt text](access-docker-postgres-bash.png)
 
+check if tcp connection is available:
+
+![Alt text](test-tcp-netconnection.png)
+
 show tables of initialized db:
 
 ![Alt text](dt-before-migrate.png)
