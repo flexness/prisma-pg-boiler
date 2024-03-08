@@ -24,5 +24,5 @@
 
 ![Alt text](migration.png)
 ![Alt text](dt-before-migrate.png)
-![Alt text](dt-after-migrate.png)access-docker-postgres-bash.png
+![Alt text](dt-after-migrate.png)
 ![Alt text](access-docker-postgres-bash.png)
