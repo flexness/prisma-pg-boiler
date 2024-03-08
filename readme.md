@@ -10,7 +10,7 @@
 - install prisma: `npm i prisma --save-dev`
 - verify installlation: `npx prisma`
 - initialize prisma for postgres: `npx prisma init --datasource-provider postgresql`
-- `docker-compose up -d`
+- run docker compose `docker-compose up -d` (based on docker-compose.yml)
 - `docker ps`
 - access docker bash from container: `docker exec -it 923d51b9ec4b /bin/bash`
 - run psql command on docker bash: `psql -U postgres -d mydb`
@@ -23,6 +23,10 @@
 - `exit`: exit docker bash
 
 ## screens
+docker compose and docker ps:
+
+![Alt text](docker-compose-docker-ps.png)
+
 access docker and postgres after init:
 
 ![Alt text](access-docker-postgres-bash.png)
