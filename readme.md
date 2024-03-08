@@ -52,3 +52,7 @@ migrate the added database schema (tables)
 show tables after migration:
 
 ![Alt text](dt-after-migrate.png)
+
+
+## low iq diagram
+![Alt text](low-iq-diagram.excalidraw.png)
