@@ -8,7 +8,7 @@
 - install req. npm ackages: `npm install typescript ts-node @types/node --save-dev`
 - init typescript: `npx tsc --init`
 - install prisma: `npm i prisma --save-dev`
-- verify installlation: `run/init: npx prisma`
+- verify installlation: `npx prisma`
 - initialize prisma for postgres: `npx prisma init --datasource-provider postgresql`
 - `docker-compose up -d`
 - `docker ps`
