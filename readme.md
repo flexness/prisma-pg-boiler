@@ -16,6 +16,7 @@
 - run psql command on docker bash: `psql -U postgres -d mydb`
 - add db schemas @ schema.prisma
 - migrate db schema (create/update tables): `npx prisma migrate dev --name init`
+- migrate adds `"@prisma/client": "^5.10.2"`as dependency
 
 ## docker-postgres cmds
 - `\q`: exit psql (postgres)
