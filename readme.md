@@ -10,13 +10,19 @@
 - install prisma: `npm i prisma --save-dev`
 - verify installlation: `npx prisma`
 - initialize prisma for postgres: `npx prisma init --datasource-provider postgresql`
-- run docker compose `docker-compose up -d` (based on docker-compose.yml)
-- `docker ps`
+- run docker compose `docker-compose up` (based on docker-compose.yml; `-d`: detached from terminal)
+- show running containers:`docker ps -a` (`-a`for all)
 - access docker bash from container: `docker exec -it 923d51b9ec4b /bin/bash`
 - run psql command on docker bash: `psql -U postgres -d mydb`
 - add db schemas @ schema.prisma
 - migrate db schema (create/update tables): `npx prisma migrate dev --name init`
 - migrate adds `"@prisma/client": "^5.10.2"`as dependency
+
+## docker cmds
+- stop docker container: `docker-compose stop` 
+- remove docker environment: `docker-compose down` (based on docker-compose.yml)
+- remove docker environment, including data (volumes): `docker-compose down -v`
+
 
 ## docker-postgres cmds
 - `\q`: exit psql (postgres)
