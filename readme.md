@@ -33,13 +33,13 @@ docker compose and docker ps:
 
 ![Alt text](docker-compose-docker-ps.png)
 
-access docker and postgres after init:
-
-![Alt text](access-docker-postgres-bash.png)
-
 check if tcp connection is available:
 
 ![Alt text](test-tcp-netconnection.png)
+
+access docker and postgres after init:
+
+![Alt text](access-docker-postgres-bash.png)
 
 show tables of initialized db:
 
