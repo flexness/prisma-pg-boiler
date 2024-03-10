@@ -59,4 +59,4 @@ show tables after migration:
 
 
 ## low iq diagram
-![Alt text](low-iq-diagram.excalidraw.png =x250)
+[<img src="image.png" width="250"/>](low-iq-diagram.excalidraw.png)
